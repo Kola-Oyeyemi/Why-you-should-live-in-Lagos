@@ -1,0 +1,118 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+.header {
+  text-align: center;
+  background-image: url('images\pexels-fauxels-3184465.jpg');
+  height: 40vh;
+}
+.pictures h1 {
+  font-size: 2.5em;
+  padding: .755em;
+}
+.pictures h4 {
+  font-size: 1em;
+  word-spacing: 4px;
+  margin-bottom: 1em;
+}
+.tiny {
+  font-size: 0.9em;
+  line-height: 2em;
+}
+
+.container  , .area{
+  padding: 2em;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.content , .places{
+  padding: 2em;
+  background-color: white;
+  border-radius: 8px;
+}
+.content p {
+  font-size: 0.9em;
+  line-height: 2em;
+  font-weight: 200;
+}
+.content h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.places p {
+  font-size: 0.9em;
+  line-height: 2em;
+  font-weight: 200;
+}
+.places h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+iframe {
+
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  margin-left: 3%;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+.image {
+  display: block;
+  width: 99%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .content , .places{
+    padding: 0.8em;
+  }
+  .container  , .area{
+    padding: 0.8em;
+  }
+  .image {
+    margin-left: 0;
+    margin-right: 2px;
+  }
+  iframe {
+    width: 99%;
+    height: 100%;
+  } 
+  .pictures h1 {
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  html {
+    font-size: 82.7%;
+  }
+
+}
+
+footer {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 1em;
+  font-size: small;
+}
+footer a {
+  color: black;
+}
+footer h4, footer h5 {
+  font-weight: 300;
+  font-size: 1em;
+}
+
+footer p {
+  font-size: 0.6em;
+}
